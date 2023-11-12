@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link href="easy.js" >
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login Form</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+    
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+    
+            if (username === "admin" && password === "aiy_sin_khn_lhr") {
+                alert("ເຂົ້າສູ່ລະບົບສຳເລັດ");
+                
+                // Redirect to easy2.html
+                window.location.href = "easy2.html";
+            } else {
+                alert("ກະລູນາລອງໄໝ່ອີກຄັ້ງ");
+            }
+        });
+    </script>
+    
+</body>
+</html>

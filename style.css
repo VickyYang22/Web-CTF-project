@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 120% ;
+    background: #f8f8f8;
+    font-family: 'Black Ops One','Noto Serif Lao', serif;
+}
+
+
+
+/* --------------------------------------------------------------------------------- */
+/* Style the header with a background color and text color */
+header {
+    background-color: #222121;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the CTF logo */
+.logo img {
+    max-width: 50px;
+    height: auto;
+    margin-left: 30px;
+    border-radius: 25px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+/* ----------------------------------------------------------------------- */
+
+.header{
+    width: 30%;
+    margin: 50px auto 0px;
+    color: #ffff;
+    background: green;
+    text-align: center;
+    border: 1px solid #b8c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+form{
+    width: 30%;
+    margin: 0 auto;
+    padding : 20px;
+    border: 1px solid #b0c4de;
+    border-radius: 0 0 10px 10px;
+    background: white;
+}
+
+.homeheader{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.homecontent{
+    text-align: center;
+    padding-top: 3rem;
+    width: 100%;
+    background: #222121;
+    height: 15vh;
+}
+
+.input-group {
+    margin: 10px 0 10px 0;
+}
+
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: green;
+    border:none;
+    border-radius: 5px;
+}
+
+.error{
+    width: 92%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #a94442 ;
+    color: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success{
+    color:#3c763d;
+    background:#dff9f8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+/* ---------------------------footer-------------------------------------- */
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #18d828;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* ---------------------------------------------------- */
+
+.box{
+    margin: 30px 300px;
+}
+
+.box h3{
+    margin: 0 30px;
+    color: purple;
+}
